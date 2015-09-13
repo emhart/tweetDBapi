@@ -1,0 +1,17 @@
+{
+  "name" : "tweetDBapi",
+  "description" : "A simple javascript API to work with the python tweeDB package",
+  "author" : "Edmund Hart <edmund.m.hart@gmail.com>",
+  "dependencies": {
+    "express": "4.13.x",
+    "sqlite3": "3.x"
+  },
+  "repository" : {"type": "git", "url": "git://github.com/emhart/tweetDBapi.git"},
+  "main" : ".js",
+  "version" : "0.0.1",
+  "license" : "MIT",
+  "scripts": {
+  "start": "node tweetDBapi.js"
+},
+
+}
